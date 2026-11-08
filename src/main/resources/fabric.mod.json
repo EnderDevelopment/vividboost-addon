@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "vibrant_visuals",
+  "version": "${version}",
+  "name": "Vibrant Visuals Optimizer",
+  "description": "A lightweight client-side visual profile toggle for clearer, brighter gameplay.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.enderdevelopment.vibrantvisuals.VibrantVisualsClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
